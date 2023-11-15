@@ -19,7 +19,7 @@ const hideTooltip = () => {
     <slot></slot>
     <div
       v-if="isVisible"
-      class="bg-gray-800 text-white p-2 rounded-md absolute top-full left-0 mt-2"
+      class="bg-primary-darkest text-white p-2 rounded-md absolute left-20 top-0 mt-2"
     >
       {content}
     </div>

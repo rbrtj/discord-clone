@@ -18,7 +18,7 @@ const servers = ref([
 </script>
 
 <template>
-  <div class="fixed left-0 top-0 w-20 bg-[#1e2124] h-full">
+  <div class="fixed left-0 top-0 w-20 bg-primary-dark h-full">
     <div class="pt-6 flex flex-col items-center">
       <ServerButton name="@me" image-url="discord.png" id="1" />
       <ul class="pt-4">
